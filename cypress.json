@@ -1,4 +1,10 @@
 {
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "overwrite": true,
+    "html": true,
+    "json": true
+  },
   "baseUrl": "http://localhost:3000",
   "projectId": "7s5okt",
   "integrationFolder": "cypress/tests",
